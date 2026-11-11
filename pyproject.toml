@@ -1,0 +1,14 @@
+[project]
+name = "customer-support-voice-agent"
+version = "0.1.0"
+description = "Phone voice agent for customer support: Twilio, speech-to-text, LLM with RAG and tools, text-to-speech."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/voice_agent"]
